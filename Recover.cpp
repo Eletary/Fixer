@@ -1,8 +1,4 @@
-//1 - show str(file/folder) & delete *.exe
-//2 - show str(file/folder) & delete str.exe & hide System Volume Information (folder)
-//3 - ditto but str is a folder
-//4 - ditto and clean virus in hard drives (this file)
-//5 - ditto and clean the regedit
+//TODO:clean the regedit
 #include <bits/stdc++.h>
 #include <dirent.h>
 #include <windows.h>
@@ -35,7 +31,7 @@ int main()
 {
 	cout << "------------------------------------------------\n"
 			"             Babonock.A Fixer v4.4\n" 
-			"           Copyright 2020 by NFLSCode.\n"
+			"           Copyright 2020-2021 by NFLSCode.\n"
 			"              All rights reserved.\n"
 			"------------------------------------------------"<<endl;
     freopen("Fixer.log","w",stdout);
