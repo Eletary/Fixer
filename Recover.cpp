@@ -1,4 +1,8 @@
-//TODO:clean the regedit
+//1 - show str(file/folder) & delete *.exe
+//2 - show str(file/folder) & delete str.exe & hide System Volume Information (folder)
+//3 - ditto but str is a folder
+//4 - ditto and clean virus in hard drives (this file)
+//5 - ditto and clean the regedit
 #include <bits/stdc++.h>
 #include <dirent.h>
 #include <windows.h>
@@ -41,8 +45,8 @@ int main()
 }
 void computer()
 {
-    if (FilePathExists("%APPDATA%\\Microsoft\\Office\\rundll.exe"))
-    {
+//    if (FilePathExists("%APPDATA%\\Microsoft\\Office\\rundll.exe"))
+//    {
         cout<<"Virus found in the drive.\n";
         system("chdir /D %APPDATA%\\Microsoft\\Office"
         	   "&del mspoint.pip"
@@ -50,8 +54,8 @@ void computer()
         	   "&taskkill /f /im rundll32.exe /t" 
                "&del rundll32.exe");
         cout<<"Virus fixed.\n";
-    }
-    else cout<<"Virus not found in the drive.\n";
+//    }
+//    else cout<<"Virus not found in the drive.\n";
 }
 void udisk()
 {
