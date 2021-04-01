@@ -30,7 +30,7 @@ void udisk();
 int main()
 {
 	cout << "------------------------------------------------\n"
-			"             Babonock.A Fixer v4.4\n" 
+			"             	Babonock.A Fixer\n" 
 			"           Copyright 2020-2021 by NFLSCode.\n"
 			"              All rights reserved.\n"
 			"------------------------------------------------"<<endl;
