@@ -1,4 +1,4 @@
-# Virus Fixer v4 使用说明
+# Virus Fixer 使用说明
 [Virus Fixer](https://files.cnblogs.com/files/zerocode/NFLSVirusFixer.zip) 由 [NFLSCode](https://cnblogs.com/zerocode) 开发。
 
 该程序的目的是为了帮助您消灭 [Babonock.A](https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=win32/babonock)。
