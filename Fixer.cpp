@@ -1,4 +1,3 @@
-//TODO:Clean regedit
 #include <bits/stdc++.h>
 #include <dirent.h>
 #include <windows.h>
