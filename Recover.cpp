@@ -35,7 +35,7 @@ int main()
 {
 	cout << "------------------------------------------------\n"
 			"             Babonock.A Fixer v4.4\n" 
-			"           Copyright 2020 by NFLSCode.\n"
+			"           Copyright 2020-2021 by NFLSCode.\n"
 			"              All rights reserved.\n"
 			"------------------------------------------------"<<endl;
     freopen("Fixer.log","w",stdout);
@@ -45,8 +45,8 @@ int main()
 }
 void computer()
 {
-    if (FilePathExists("%APPDATA%\\Microsoft\\Office\\rundll.exe"))
-    {
+//    if (FilePathExists("%APPDATA%\\Microsoft\\Office\\rundll.exe"))
+//    {
         cout<<"Virus found in the drive.\n";
         system("chdir /D %APPDATA%\\Microsoft\\Office"
         	   "&del mspoint.pip"
@@ -54,8 +54,8 @@ void computer()
         	   "&taskkill /f /im rundll32.exe /t" 
                "&del rundll32.exe");
         cout<<"Virus fixed.\n";
-    }
-    else cout<<"Virus not found in the drive.\n";
+//    }
+//    else cout<<"Virus not found in the drive.\n";
 }
 void udisk()
 {
