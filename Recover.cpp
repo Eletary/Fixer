@@ -1,8 +1,4 @@
-//1 - show str(file/folder) & delete *.exe
-//2 - show str(file/folder) & delete str.exe & hide System Volume Information (folder)
-//3 - ditto but str is a folder
-//4 - ditto and clean virus in hard drives (this file)
-//5 - ditto and clean the regedit
+//TODO:Clean regedit
 #include <bits/stdc++.h>
 #include <dirent.h>
 #include <windows.h>
