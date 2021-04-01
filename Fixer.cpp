@@ -1,8 +1,4 @@
-//1 - show str(file/folder) & delete *.exe
-//2 - show str(file/folder) & delete str.exe & hide System Volume Information (folder)
-//3 - ditto but str is a folder
-//4 - ditto and clean virus in hard drives (this file)
-//5 - ditto and clean the regedit
+//TODO:Clean regedit
 #include <bits/stdc++.h>
 #include <dirent.h>
 #include <windows.h>
@@ -31,31 +27,32 @@ bool IsFolder(const char* tempPath)
 }
 void computer();
 void udisk();
+void reg();
 int main()
 {
 	cout << "------------------------------------------------\n"
-			"             Babonock.A Fixer v4.4\n" 
+			"             	Babonock.A Fixer\n" 
 			"           Copyright 2020-2021 by NFLSCode.\n"
 			"              All rights reserved.\n"
 			"------------------------------------------------"<<endl;
     freopen("Fixer.log","w",stdout);
     computer();
     udisk();
+    reg();
     return 0;
+}
+void reg()
+{
+	system("reg delete HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /v \"Microsoft Windows\" /f"); 
 }
 void computer()
 {
-//    if (FilePathExists("%APPDATA%\\Microsoft\\Office\\rundll.exe"))
-//    {
-        cout<<"Virus found in the drive.\n";
-        system("chdir /D %APPDATA%\\Microsoft\\Office"
-        	   "&del mspoint.pip"
-        	   "&attrib -h -s rundll32.exe"
-        	   "&taskkill /f /im rundll32.exe /t" 
-               "&del rundll32.exe");
-        cout<<"Virus fixed.\n";
-//    }
-//    else cout<<"Virus not found in the drive.\n";
+    system( "chdir /D %APPDATA%\\Microsoft\\Office"
+        	"&del mspoint.pip"
+        	"&attrib -h -s rundll32.exe"
+        	"&taskkill /f /im rundll32.exe /t" 
+            "&del rundll32.exe");
+    cout<<"Virus in fixed drive fixed(qwq)\n";
 }
 void udisk()
 {
