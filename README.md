@@ -1,4 +1,4 @@
-本仓库不再自动维护和更新，只在有issue时才做更改。
+> 本仓库不再自动维护和更新，只在有issue时才做更改。
 
 # Virus Fixer 使用说明
 Virus Fixer 由 @NFLS-1963 开发。
