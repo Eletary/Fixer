@@ -1,6 +1,9 @@
 > 本仓库不再自动维护和更新，只在有issue时才做更改。
 
-# Virus Fixer 使用说明
+# Virus Fixer
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![Version](https://img.shields.io/badge/Version-v5.0-green?logo=github)
+
 Virus Fixer 由 @NFLS-1963 开发。
 
 该程序的目的是为了帮助您消灭 [Babonock.A](https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=win32/babonock)。
