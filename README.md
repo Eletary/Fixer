@@ -1,7 +1,5 @@
 > 本仓库不再自动维护和更新，只在有issue时才做更改。
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NFLSCode)
-
 # Virus Fixer 使用说明
 Virus Fixer 由 @NFLS-1963 开发。
 
