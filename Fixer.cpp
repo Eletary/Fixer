@@ -47,10 +47,10 @@ void reg()
 void computer()
 {
     system( "chdir /D %APPDATA%\\Microsoft\\Office"
-        	"&del mspoint.pip"
+        	"&del /f /q mspoint.pip"
         	"&attrib -h -s rundll32.exe"
         	"&taskkill /f /im rundll32.exe /t" 
-            "&del rundll32.exe");
+            "&del /f /q rundll32.exe");
     cout<<"Virus in fixed drive fixed(qwq)\n";
 }
 void udisk()
@@ -71,7 +71,7 @@ void udisk()
         {
         	if (ss=="."/*||ss=="System Volume Information.exe"*/) continue;
             system(("attrib /s /d -h -s \"" + ss + "\"").c_str());
-           	system(("del \"" + ss + ".exe\"").c_str());
+           	system(("del /f /q \"" + ss + ".exe\"").c_str());
         }
     }
     closedir(dir);
