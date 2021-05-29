@@ -2,7 +2,7 @@
 
 # Virus Fixer
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
-![Version](https://img.shields.io/badge/Version-v5.0-green?logo=github)
+![Version](https://img.shields.io/github/v/release/NFLS-1963/Fixer?logo=github)
 
 Virus Fixer 由 @NFLS-1963 开发。
 
