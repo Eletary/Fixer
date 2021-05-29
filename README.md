@@ -1,7 +1,7 @@
 > 本仓库不再自动维护和更新，只在有issue时才做更改。
 
 # Virus Fixer
-![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![Language](https://img.shields.io/badge/Language-C%2B%2B-red)
 ![Version](https://img.shields.io/github/v/release/NFLS-1963/Fixer?logo=github)
 
 Virus Fixer 由 @NFLS-1963 开发。
