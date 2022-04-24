@@ -1,4 +1,4 @@
-> 本仓库不再自动维护和更新，只在有issue时才做更改。
+> 本仓库不再维护。
 
 # Virus Fixer
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-red)
